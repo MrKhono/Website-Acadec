@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from hubhtml.liquid-themes.com/index-company.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Feb 2024 12:12:28 GMT -->
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="keywords"
-        content="HTML Template, site template, seo, marketing, creative, corporate, modern, multipurpose, one page, business, responsive, minimal, saas, startup" />
-    <meta name="author" content="LiquidThemes" />
-    <meta name="description"
-        content="Hub is a HTML template with high performance, and award-winning design collection." />
-    <meta property="og:title" content="Hub HTML template" />
-    <meta property="og:description"
-        content="Hub is a HTML template with high performance, and award-winning design collection." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/images/common/og-image.jpg" />
     <link rel="stylesheet" href="assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css" />
@@ -26,6 +17,8 @@
         rel="stylesheet" />
         
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     
        
     <title>Acadec</title>
@@ -66,14 +59,13 @@
                                     </svg></span>
                             </div>
                             <h3 class="iconbox-heading m-0 text-13 font-normal text-white">
-                                14th Street, Soho
+                                Ngor Virage, Almadies
                             </h3>
                         </div>
                     </div>
                 </div>
                 <div class="w-50percent flex items-center justify-end py-10 link-white link-font-normal link-14">
-                    <!-- <a href="#consultation" class="btn btn-naked leading-16" rel="nofollow"
-                        data-localscroll="true"><span class="btn-txt" data-text="Consultation">Consultation</span></a> -->
+                    
                     <div class="pl-20 ml-20 border-left text-white-10">
                         <a href="#" id="detecter" class="btn btn-naked leading-16" rel="nofollow" data-localscroll="true"><span
                                 class="btn-txt" data-text="Contact us">Télécharger l'app</span></a>
@@ -160,9 +152,6 @@
                                     <a class="text-white hover:text-primary"
                                         href="bourse.html">Bourses</a>
                                 </li>
-                                <!-- <li class="inline-flex flex-col relative w-auto">
-                                    <a class="text-white hover:text-primary" href="#news">Blog</a>
-                                </li> -->
                                 <li class="inline-flex flex-col relative w-auto">
                                     <a class="text-white hover:text-primary"
                                         href="contact.html">Contact</a>
@@ -199,31 +188,34 @@
                             data-localscroll="true"
                             data-localscroll-options='{"itemsSelector":"> li > a", "trackWindowScroll": true}'>
                             <li class="is-active">
-                                <a href="banner.html">Accueil </a>
+                                <a href="index.html">Accueil </a>
                             </li>
                             <li>
-                                <a href="page-company-about.html">A propos </a>
+                                <a href="about.html">A propos </a>
                             </li>
                             <li>
-                                <a href="page-company-services.html">Bourses </a>
+                                <a href="bourse.html">Bourses </a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#wrap">Services <span class="submenu-expander absolute"></span>
                                     <sup class="link-sup">04</sup></a>
                                 <ul class="nav-item-children">
                                     <li>
-                                        <a href="page-company-what-we-do.html">Consultation</a>
+                                        <a href="https://acadec.net" >Application</a>
                                     </li>
                                     <li>
-                                        <a href="page-company-what-we-do.html">Orientation</a>
+                                        <a href="">Logement</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Consultation</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Orientation</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#news">Application </a>
-                            </li>
-                            <li>
-                                <a href="page-company-contact.html">Contact </a>
+                                <a href="contact.html">Contact </a>
                             </li>
                         </ul>
                     </div>
@@ -276,7 +268,7 @@
                                         <div class="inline-block w-auto relative animation-element">
                                             <h6 class="ld-fh-element mt-0/5em ml-5em mb-0 inline-block relative">
                                                 <span class="text-13 text-white">Appellez nous maintenant</span><br /><span
-                                                    class="text-20 text-primary">+1 114 7788</span>
+                                                    class="text-20 text-primary">+221 78 606 61 78</span>
                                             </h6>
                                         </div>
                                     </div>
@@ -361,23 +353,17 @@
                                                         </div>
                                                         <div class="col col-12 py-0">
                                                             <div class="mb-0 lqd-form-control-wrap relative">
-                                                                <div class="lqd-select-dropdown" role="menubar">
-                                                                    <div class="ui-selectmenu-menu ui-front">
-                                                                        <ul aria-hidden="true"
-                                                                            aria-labelledby="ui-id-1-button"
-                                                                            id="ui-id-1-menu" role="listbox"
-                                                                            tabindex="0"
-                                                                            class="ui-menu ui-corner-bottom ui-widget ui-widget-content">
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <textarea class="text-black px-2em text-14 font-normal bg-yellow-100" name="" id="" cols="20" rows="5">
+                                                                <textarea 
+                                                                class="text-black px-2em justify-start text-14 font-normal bg-yellow-100" 
+                                                                placeholder="Votre message"
+                                                                name="message" id="" cols="20" rows="5">
                                                                 </textarea>
                                                             </div>
                                                         </div>
                                                         
                                                         <div class="col col-12 py-0">
                                                             <input  
+                                                                id="msg-btn"
                                                                 type="submit" 
                                                                 name="ok" 
                                                                 value="Envoyer"
@@ -810,12 +796,11 @@
                         <div class="col col-12 col-xl-4">
                             <div class="mr-50 mb-30 flex flex-col">
                                 <div class="mb-35">
-                                    <img src="assets/images/demo/company/logo.svg" alt="Hub Company" />
+                                    <img src="assets/images/icon.png" width="100px"  alt="Hub Company" />
                                 </div>
                                 <div class="ld-fancy-heading relative">
                                     <p class="mb-3em text-white opacity-50 inline-block relative">
-                                        Hub IT allows your business and technology computers to
-                                        store, transmit, analyze, and manipulate big data.
+                                        Faites confiance à Acadec pour simplifier et améliorer votre expérience éducative, que vous soyez un étudiant à la recherche de la bonne orientation ou un établissement désireux d'optimiser sa gestion
                                     </p>
                                 </div>
                                 <div class="module-icon -mr-10 -ml-10">
@@ -828,18 +813,15 @@
                                                     </svg> </span><span class="icon-list-text"></span></a>
                                         </li>
                                         <li class="mx-10 icon-list-item inline-item inline-flex">
-                                            <a href="#"><span class="icon-list-icon flex"><svg class="text-24 w-25 h-25"
+                                            <a href="https://www.instagram.com/acadeceducation/"><span class="icon-list-icon flex"><svg class="text-24 w-25 h-25"
                                                         viewBox="0 0 448 512" fill="#849493">
                                                         <path
                                                             d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
                                                     </svg> </span><span class="icon-list-text"></span></a>
                                         </li>
                                         <li class="mx-10 icon-list-item inline-item inline-flex">
-                                            <a href="#"><span class="icon-list-icon flex"><svg class="text-24 w-25 h-25"
-                                                        viewBox="0 0 496 512" fill="#849493">
-                                                        <path
-                                                            d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
-                                                    </svg> </span><span class="icon-list-text"></span></a>
+                                            <a href="https://www.linkedin.com/company/acadec/"><span class="icon-list-icon flex">
+                                                <svg  viewBox="0 0 50 50" fill="#849493" width="30px" height="30px"><path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 14 11.011719 C 12.904779 11.011719 11.919219 11.339079 11.189453 11.953125 C 10.459687 12.567171 10.011719 13.484511 10.011719 14.466797 C 10.011719 16.333977 11.631285 17.789609 13.691406 17.933594 A 0.98809878 0.98809878 0 0 0 13.695312 17.935547 A 0.98809878 0.98809878 0 0 0 14 17.988281 C 16.27301 17.988281 17.988281 16.396083 17.988281 14.466797 A 0.98809878 0.98809878 0 0 0 17.986328 14.414062 C 17.884577 12.513831 16.190443 11.011719 14 11.011719 z M 14 12.988281 C 15.392231 12.988281 15.94197 13.610038 16.001953 14.492188 C 15.989803 15.348434 15.460091 16.011719 14 16.011719 C 12.614594 16.011719 11.988281 15.302225 11.988281 14.466797 C 11.988281 14.049083 12.140703 13.734298 12.460938 13.464844 C 12.78117 13.19539 13.295221 12.988281 14 12.988281 z M 11 19 A 1.0001 1.0001 0 0 0 10 20 L 10 39 A 1.0001 1.0001 0 0 0 11 40 L 17 40 A 1.0001 1.0001 0 0 0 18 39 L 18 33.134766 L 18 20 A 1.0001 1.0001 0 0 0 17 19 L 11 19 z M 20 19 A 1.0001 1.0001 0 0 0 19 20 L 19 39 A 1.0001 1.0001 0 0 0 20 40 L 26 40 A 1.0001 1.0001 0 0 0 27 39 L 27 29 C 27 28.170333 27.226394 27.345035 27.625 26.804688 C 28.023606 26.264339 28.526466 25.940057 29.482422 25.957031 C 30.468166 25.973981 30.989999 26.311669 31.384766 26.841797 C 31.779532 27.371924 32 28.166667 32 29 L 32 39 A 1.0001 1.0001 0 0 0 33 40 L 39 40 A 1.0001 1.0001 0 0 0 40 39 L 40 28.261719 C 40 25.300181 39.122788 22.95433 37.619141 21.367188 C 36.115493 19.780044 34.024172 19 31.8125 19 C 29.710483 19 28.110853 19.704889 27 20.423828 L 27 20 A 1.0001 1.0001 0 0 0 26 19 L 20 19 z M 12 21 L 16 21 L 16 33.134766 L 16 38 L 12 38 L 12 21 z M 21 21 L 25 21 L 25 22.560547 A 1.0001 1.0001 0 0 0 26.798828 23.162109 C 26.798828 23.162109 28.369194 21 31.8125 21 C 33.565828 21 35.069366 21.582581 36.167969 22.742188 C 37.266572 23.901794 38 25.688257 38 28.261719 L 38 38 L 34 38 L 34 29 C 34 27.833333 33.720468 26.627107 32.990234 25.646484 C 32.260001 24.665862 31.031834 23.983076 29.517578 23.957031 C 27.995534 23.930001 26.747519 24.626988 26.015625 25.619141 C 25.283731 26.611293 25 27.829667 25 29 L 25 38 L 21 38 L 21 21 z"/></svg> </span><span class="icon-list-text"></span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -869,9 +851,7 @@
                                             Collaborant ensemble
                                         </h3>
                                         <p>
-                                            <span class="text-16 text-white"><a href="cdn-cgi/l/email-protection.html"
-                                                    class="__cf_email__"
-                                                    data-cfemail="620a1700220e0b13170b064c010d0f">[email&#160;protected]</a></span>
+                                            <span class="text-16 text-white"> <a href="mailto:contact@acdec.net" style="text-decoration: none; color:white;">contact@acadec.net</a></span>
                                         </p>
                                     </div>
                                 </div>
@@ -892,7 +872,7 @@
                                             Visitez nos locaux
                                         </h3>
                                         <p>
-                                            <span class="text-16 text-white">14th Street, Soho</span>
+                                            <a href="https://maps.app.goo.gl/MnAZYTXp6edkgk5V6" target="_blank"> <span class="text-16 text-white">Ngor virage, Almadies</span></a>
                                         </p>
                                     </div>
                                 </div>
@@ -913,7 +893,7 @@
                                             Support 7j/7
                                         </h3>
                                         <p>
-                                            <span class="text-16 text-white">+(1) 123 456 7890</span>
+                                            <span class="text-16 text-white">+221 78 606 61 78</span>
                                         </p>
                                     </div>
                                 </div>
@@ -932,10 +912,10 @@
                                             </div>
                                             <div class="lqd-fancy-menu lqd-custom-menu relative lqd-menu-td-none">
                                                 <ul class="reset-ul">
-                                                    <li class="mb-10"><a href="#">Accueil</a></li>
-                                                    <li class="mb-10"><a href="#">A Propos</a></li>
-                                                    <li class="mb-10"><a href="#">Bourses</a></li>
-                                                    <li class="mb-10"><a href="#">Services</a></li>
+                                                    <li class="mb-10"><a href="index.html">Accueil</a></li>
+                                                    <li class="mb-10"><a href="about.html">A Propos</a></li>
+                                                    <li class="mb-10"><a href="bourse.html">Bourses</a></li>
+                                                    <li class="mb-10"><a href="services.html">Services</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -943,15 +923,15 @@
                                             <div class="ld-fancy-heading relative">
                                                 <h3
                                                     class="ld-fh-element text-white text-16 mb-2em inline-block relative">
-                                                    Company
+                                                    Application
                                                 </h3>
                                             </div>
                                             <div class="lqd-fancy-menu lqd-custom-menu relative lqd-menu-td-none">
                                                 <ul class="reset-ul">
-                                                    <li class="mb-10"><a href="#">App Store</a></li>
-                                                    <li class="mb-10"><a href="#">Play Store</a></li>
-                                                    <li class="mb-10"><a href="#">Press media</a></li>
-                                                    <li><a href="#">Blog</a></li>
+                                                    <li class="mb-10"><a class="btn-txt" id="detecter" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiD2uPNi_6EAxVEU6QEHS1nA_8QFnoECA4QAQ&url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Facadec%2Fid6448538182&usg=AOvVaw16iW7VzdccIcTbdCaUgwvR&opi=89978449">App Store</a></li>
+                                                    <li class="mb-10"><a class="btn-txt" id="detecter" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiD2uPNi_6EAxVEU6QEHS1nA_8QFnoECA8QAQ&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dsn.layetech.acadec%26hl%3Dfr%26gl%3DUS&usg=AOvVaw3OMh3akEgdtmGqpdqWcWNp&opi=89978449">Play Store</a></li>
+                                                    <li class="mb-10"><a class="btn-txt" id="detecter" target="_blank" href="https://youtu.be/j24lSO4Z7_U?si=1zd6Ey27BUFir1Ck">Youtube</a></li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -978,124 +958,6 @@
             </section>
         </footer>
     </div>
-    <div id="contact-modal" class="lqd-modal lity-hide" data-modal-type="fullscreen">
-        <div class="lqd-modal-inner py-25 px-2em">
-            <div class="lqd-modal-head">
-                <h2>Restez informé</h2>
-            </div>
-            <div class="lqd-modal-content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col col-12">
-                            <div class="ld-gmap-container h-340">
-                                <div class="ld-gmap w-full h-full" data-plugin-map="true"
-                                    data-plugin-options='{"style": "assassinsCreedIV", "address": "Manhattan", "marker_style": "html", "markers" : null , "map": {"zoom" : 14 , "mapTypeId": "roadmap", "zoomControl": true}}'>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
-                    <div class="container-fluid">
-                        <div class="row items-center">
-                            <div class="col col-12 col-md-6">
-                                <div
-                                    class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
-                                    <div class="ld-fancy-heading">
-                                        <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">
-                                            Get in touch
-                                        </h2>
-                                    </div>
-                                    <div class="ld-fancy-heading">
-                                        <p class="ld-fh-element mb-2/5em">
-                                            We are here to answer any question you may have. Feel
-                                            free to reach via contact form.
-                                        </p>
-                                    </div>
-                                    <div class="iconbox text-align-default mb-10 items-start">
-                                        <div class="iconbox-icon-wrap flex">
-                                            <span class="iconbox-icon-container text-gray-200 text-16 mr-15"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em"
-                                                    viewBox="0 0 384 512">
-                                                    <path
-                                                        d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z" />
-                                                </svg></span>
-                                        </div>
-                                        <h3 class="text-15 text-black-60 leading-1/5em">
-                                            290 Maryam Springs 260,<br />Courbevoie, Paris
-                                        </h3>
-                                    </div>
-                                    <div class="iconbox text-align-default mb-10 items-start">
-                                        <div class="iconbox-icon-wrap flex">
-                                            <span class="iconbox-icon-container text-gray-200 text-16 mr-15"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em"
-                                                    viewBox="0 0 512 512">
-                                                    <path
-                                                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                                                </svg></span>
-                                        </div>
-                                        <h3 class="text-15 text-black-60 leading-1/5em">
-                                            <span>Email: </span><span class="text-black-60"><a
-                                                    href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                                    data-cfemail="e088858c8c8fa08c8991958984cd9488858d8593ce838f8d">[email&#160;protected]</a></span>
-                                        </h3>
-                                    </div>
-                                    <div class="iconbox text-align-default mb-10 items-start">
-                                        <div class="iconbox-icon-wrap flex">
-                                            <span class="iconbox-icon-container text-gray-200 text-16 mr-15"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em"
-                                                    viewBox="0 0 384 512">
-                                                    <path
-                                                        d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM144 448c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16s-7.2-16-16-16H160c-8.8 0-16 7.2-16 16zM304 64H80V384H304V64z" />
-                                                </svg></span>
-                                        </div>
-                                        <h3 class="text-15 text-black-60 leading-1/5em">
-                                            Phone: +47 213 5941 295
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-12 col-md-6 col-lg-5 offset-lg-1">
-                                <div
-                                    class="lqd-contact-form lqd-contact-form-inputs-filled lqd-contact-form-inputs-round lqd-contact-form-button-block lqd-contact-form-button-round pr-12percent">
-                                    <div role="form" class="lqd-cf" lang="en-GB">
-                                        <div class="screen-reader-response">
-                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                        </div>
-                                        <form action="https://hubhtml.liquid-themes.com/assets/php/mailer.php"
-                                            method="post" class="lqd-cf-form" novalidate="novalidate"
-                                            data-status="init">
-                                            <p>
-                                                <span class="lqd-form-control-wrap text"><input type="text" name="name"
-                                                        value size="40"
-                                                        class="lqd-cf-form-control px-2em text-13 bg-gray-100 text-slate-300"
-                                                        aria-required="true" aria-invalid="false"
-                                                        placeholder="Your name" /> </span><span
-                                                    class="lqd-form-control-wrap"><input type="email" name="email" value
-                                                        size="40"
-                                                        class="lqd-cf-form-control px-2em text-13 bg-gray-100 text-slate-300"
-                                                        aria-required="true" aria-invalid="false"
-                                                        placeholder="Your Email Address" /> </span><span
-                                                    class="lqd-form-control-wrap textarea">
-                                                    <textarea name="message" cols="10" rows="4"
-                                                        class="lqd-cf-form-control px-2em text-13 bg-gray-100 text-slate-300"
-                                                        aria-required="true" aria-invalid="false"
-                                                        placeholder="Your message"></textarea></span><input
-                                                    type="submit" value="Send email"
-                                                    class="lqd-cf-form-control px-2em text-14 bg-primary text-white" />
-                                            </p>
-                                        </form>
-                                        <div class="lqd-cf-response-output"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="lqd-modal-foot"></div>
-        </div>
-    </div>
     
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDRSq7_32muzQ4-hcsJwws4ZrtfqaFcsZg"></script>
@@ -1114,85 +976,90 @@
     <script src="assets/js/theme.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/liquid-ajax-contact-form.min.js"></script>
-    <div class="lqd-cc lqd-cc--inner fixed pointer-events-none"></div>
-    <div
-        class="lqd-cc--el lqd-cc-solid lqd-cc-explore flex items-center justify-center rounded-full fixed pointer-events-none">
-        <div class="lqd-cc-solid-bg flex absolute lqd-overlay"></div>
-        <div class="lqd-cc-solid-txt flex justify-center text-center relative">
-            <div class="lqd-cc-solid-txt-inner">Explide</div>
-        </div>
-    </div>
-    <div
-        class="lqd-cc--el lqd-cc-solid lqd-cc-drag flex items-center justify-center rounded-full fixed pointer-events-none">
-        <div class="lqd-cc-solid-bg flex absolute lqd-overlay"></div>
-        <div class="lqd-cc-solid-ext lqd-cc-solid-ext-left inline-flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-                style="width: 1em; height: 1em">
-                <path fill="currentColor"
-                    d="M19.943 6.07L9.837 14.73a1.486 1.486 0 0 0 0 2.25l10.106 8.661c.96.826 2.457.145 2.447-1.125V7.195c0-1.27-1.487-1.951-2.447-1.125z">
-                </path>
-            </svg>
-        </div>
-        <div class="lqd-cc-solid-txt flex justify-center text-center relative">
-            <div class="lqd-cc-solid-txt-inner">Drag</div>
-        </div>
-        <div class="lqd-cc-solid-ext lqd-cc-solid-ext-right inline-flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-                style="width: 1em; height: 1em">
-                <path fill="currentColor"
-                    d="M11.768 25.641l10.106-8.66a1.486 1.486 0 0 0 0-2.25L11.768 6.07c-.96-.826-2.457-.145-2.447 1.125v17.321c0 1.27 1.487 1.951 2.447 1.125z">
-                </path>
-            </svg>
-        </div>
-    </div>
-    <div class="lqd-cc--el lqd-cc-arrow inline-flex items-center fixed top-0 left-0 pointer-events-none">
-        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M60.4993 0V4.77005H8.87285L80 75.9207L75.7886 79.1419L4.98796 8.35478V60.4993H0V0H60.4993Z" />
-        </svg>
-    </div>
-    <div class="lqd-cc--el lqd-cc-custom-icon rounded-full fixed pointer-events-none">
-        <div class="lqd-cc-ci inline-flex items-center justify-center rounded-full relative">
-            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                style="width: 1em; height: 1em">
-                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.03 6a1 1 0 0 1 1 1v8.02h8.02a1 1 0 1 1 0 2.01h-8.02v8.02a1 1 0 1 1-2.01 0v-8.02h-8.02a1 1 0 1 1 0-2.01h8.02v-8.01a1 1 0 0 1 1.01-1.01z">
-                </path>
-            </svg>
-        </div>
-    </div>
-    <div class="lqd-cc lqd-cc--outer fixed top-0 left-0 pointer-events-none"></div>
-    <template id="lqd-snickersbar">
-        <div class="lqd-snickersbar flex flex-wrap lqd-snickersbar-in" data-item-id>
-            <div class="lqd-snickersbar-inner flex flex-wrap items-center">
-                <div class="lqd-snickersbar-detail">
-                    <p class="hidden lqd-snickersbar-addding-temp my-0">
-                        Adding {{itemName}} to cart
-                    </p>
-                    <p class="hidden lqd-snickersbar-added-temp my-0">
-                        Added {{itemName}} to cart
-                    </p>
-                    <p class="my-0 lqd-snickersbar-msg flex items-center my-0"></p>
-                    <p class="my-0 lqd-snickersbar-msg-done flex items-center my-0"></p>
-                </div>
-                <div class="lqd-snickersbar-ext ml-4"></div>
-            </div>
-        </div>
-    </template><template id="lqd-temp-sticky-header-sentinel">
-        <div class="lqd-sticky-sentinel invisible absolute pointer-events-none"></div>
-    </template>
-    <div class="lity" role="dialog" aria-label="Dialog Window (Press escape to close)" tabindex="-1"
-        data-modal-type="default">
-        <div class="lity-wrap" data-lity-close role="document">
-            <div class="lity-loader" aria-hidden="true">Loading...</div>
-            <div class="lity-container">
-                <div class="lity-content"></div>
-            </div>
-            <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>
-                &times;
-            </button>
-        </div>
-    </div>
+    <script type="text/javascript">
+        emailjs.init('V5TsJa6KsyDZQEFhw')
+      </script>
+
+      <div
+      class="lqd-cc--el lqd-cc-solid lqd-cc-explore flex items-center justify-center rounded-full fixed pointer-events-none">
+      <div class="lqd-cc-solid-bg flex absolute lqd-overlay"></div>
+      <div class="lqd-cc-solid-txt flex justify-center text-center relative">
+          <div class="lqd-cc-solid-txt-inner">Explide</div>
+      </div>
+  </div>
+  <div
+      class="lqd-cc--el lqd-cc-solid lqd-cc-drag flex items-center justify-center rounded-full fixed pointer-events-none">
+      <div class="lqd-cc-solid-bg flex absolute lqd-overlay"></div>
+      <div class="lqd-cc-solid-ext lqd-cc-solid-ext-left inline-flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+              style="width: 1em; height: 1em">
+              <path fill="currentColor"
+                  d="M19.943 6.07L9.837 14.73a1.486 1.486 0 0 0 0 2.25l10.106 8.661c.96.826 2.457.145 2.447-1.125V7.195c0-1.27-1.487-1.951-2.447-1.125z">
+              </path>
+          </svg>
+      </div>
+      <div class="lqd-cc-solid-txt flex justify-center text-center relative">
+          <div class="lqd-cc-solid-txt-inner">Drag</div>
+      </div>
+      <div class="lqd-cc-solid-ext lqd-cc-solid-ext-right inline-flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+              style="width: 1em; height: 1em">
+              <path fill="currentColor"
+                  d="M11.768 25.641l10.106-8.66a1.486 1.486 0 0 0 0-2.25L11.768 6.07c-.96-.826-2.457-.145-2.447 1.125v17.321c0 1.27 1.487 1.951 2.447 1.125z">
+              </path>
+          </svg>
+      </div>
+  </div>
+  <div class="lqd-cc--el lqd-cc-arrow inline-flex items-center fixed top-0 left-0 pointer-events-none">
+      <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60.4993 0V4.77005H8.87285L80 75.9207L75.7886 79.1419L4.98796 8.35478V60.4993H0V0H60.4993Z" />
+      </svg>
+  </div>
+  <div class="lqd-cc--el lqd-cc-custom-icon rounded-full fixed pointer-events-none">
+      <div class="lqd-cc-ci inline-flex items-center justify-center rounded-full relative">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+              style="width: 1em; height: 1em">
+              <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.03 6a1 1 0 0 1 1 1v8.02h8.02a1 1 0 1 1 0 2.01h-8.02v8.02a1 1 0 1 1-2.01 0v-8.02h-8.02a1 1 0 1 1 0-2.01h8.02v-8.01a1 1 0 0 1 1.01-1.01z">
+              </path>
+          </svg>
+      </div>
+  </div>
+  <div class="lqd-cc lqd-cc--outer fixed top-0 left-0 pointer-events-none"></div>
+  <template id="lqd-snickersbar">
+      <div class="lqd-snickersbar flex flex-wrap lqd-snickersbar-in" data-item-id>
+          <div class="lqd-snickersbar-inner flex flex-wrap items-center">
+              <div class="lqd-snickersbar-detail">
+                  <p class="hidden lqd-snickersbar-addding-temp my-0">
+                      Adding {{itemName}} to cart
+                  </p>
+                  <p class="hidden lqd-snickersbar-added-temp my-0">
+                      Added {{itemName}} to cart
+                  </p>
+                  <p class="my-0 lqd-snickersbar-msg flex items-center my-0"></p>
+                  <p class="my-0 lqd-snickersbar-msg-done flex items-center my-0"></p>
+              </div>
+              <div class="lqd-snickersbar-ext ml-4"></div>
+          </div>
+      </div>
+  </template><template id="lqd-temp-sticky-header-sentinel">
+      <div class="lqd-sticky-sentinel invisible absolute pointer-events-none"></div>
+  </template>
+  <div class="lity" role="dialog" aria-label="Dialog Window (Press escape to close)" tabindex="-1"
+      data-modal-type="default">
+      <div class="lity-wrap" data-lity-close role="document">
+          <div class="lity-loader" aria-hidden="true">Loading...</div>
+          <div class="lity-container">
+              <div class="lity-content"></div>
+          </div>
+          <button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close>
+              &times;
+          </button>
+      </div>
+  </div>
+    
+    
+   
 </body>
-<!-- Mirrored from hubhtml.liquid-themes.com/index-company.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Feb 2024 12:12:28 GMT -->
 
 </html>
