@@ -220,7 +220,6 @@ select {
   flex-basis: 60%;
   width: 800px;
   height: 600px;
-  background-color: red;
   background: url('https://img.freepik.com/free-photo/portrait-male-student-with-books_23-2148882426.jpg?t=st=1710760794~exp=1710764394~hmac=75e71d692b3a1c4a589c9bd8a29f5b673a51da0fc04e562f2e35e3c8b9cf764e&w=900');
   background-size: cover;
 }
@@ -236,3 +235,42 @@ select {
   line-height: 30px;
 }
 
+
+/*=============== BREAKPOINTS ===============*/
+/* DESKTOP */
+@media screen and (max-width: 1180px){
+
+}
+
+@media screen and (max-width: 1024px){
+  
+}
+
+/* LAPTOP */
+@media screen and (min-width: 992px) and (max-width:1023px) {
+ 
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+ 
+}
+
+@media screen and (max-width: 578px) {
+ .about-content{
+  flex-direction: column;
+  margin-top: 50px;
+ }
+
+ .about-content .about-description{
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+ }
+}
